@@ -1,0 +1,14 @@
+<h1><%=name%></h1>
+
+<h2>Ingredients</h2>
+
+<ul>
+<%ingredients.forEach(function(ingredient){%>
+	<li><%=ingredient%></li>
+<%})%>
+</ul>
+
+<h2>Directions...or lack thereof</h2>
+<p><%=directions%></p>
+
+<a href='/recipes'>back to recipes</a>
